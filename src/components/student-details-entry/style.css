@@ -1,3 +1,8 @@
 .student-details {
     min-height: 100vh;
 }
+.student-details .button-submit{
+    background-color: chartreuse;
+    font-size: larger;
+    border-radius: 12px;
+}
