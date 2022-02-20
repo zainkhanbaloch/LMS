@@ -8,7 +8,6 @@ Click here to start. <span className='fa fa-phone'></span>
 
 //Ask for student name
 //Ask for student age
-//Ask for student class
 //Button that says start entry
        </button>
     </div>

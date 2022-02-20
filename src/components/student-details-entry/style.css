@@ -1,8 +1,34 @@
 .student-details-test {
     min-height: 100vh;
 }
-.student-details .button-submit{
-    background-color: chartreuse;
-    font-size: larger;
-    border-radius: 12px;
+.student-details .main{
+    background-color: rgb(26, 117, 148);
+    margin-top: 0%;
+    height: 70vh;
+}
+.student-details .first{
+    margin-left: 20%;
+    font-size: 30px;
+}
+.student-details .infod{
+    margin: 11%;
+    margin-top: 9%;
+    background-color: rgb(23, 79, 97);
+    color: #fff;
+    width: 70%;
+    border-color: rgb(5, 5, 5);
+}
+.student-details .info{
+    margin: 11%;
+    margin-top: -20%;
+    background-color: rgb(23, 79, 97);
+    color: #fff;
+    width: 70%;
+    border-color: rgb(5, 5, 5);
+}
+.student-details .submit{
+    background-color: rgb(27, 58, 236);
+    margin-left: 75%;
+    font-size: 20px;
+    margin-top: -29%;
 }
