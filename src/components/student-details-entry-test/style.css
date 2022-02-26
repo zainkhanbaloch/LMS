@@ -1,3 +1,66 @@
-.student-details {
-    min-height: 100vh;
+.student-details-wrapper {
+  min-height: 100vh;
+  background-color: #191b34;
+  color: white;
+}
+.student-details-wrapper .student-details-form {
+    background-color: #282d4a;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 4px;
+}
+
+.student-details-wrapper .student-details-form h1 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 24px 24px 12px 24px;
+}
+
+.student-details-wrapper .student-details-form .line {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.student-details-wrapper .student-details-form h6 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 24px 24px 0px 24px;
+}
+
+.student-details-wrapper .student-details-form label {
+    font-size: 14px;
+}
+
+.student-details-wrapper .student-details-form input[type="radio"] {
+    margin-top: 5px;
+}
+
+.student-details-wrapper .student-details-form .input {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 12px 24px 0px 24px;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    background-color: transparent;
+    color: white;
+    border-radius: 2px;
+}
+
+.student-details-wrapper .student-details-form .input:focus {
+    border: 2px solid #2bb8c2;
+}
+
+.student-details-wrapper .student-details-form button {
+    background-color: #4b1ff8;
+    color: white;
+    font-size: 14px;
+    padding: 8px 48px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 6px;
 }
