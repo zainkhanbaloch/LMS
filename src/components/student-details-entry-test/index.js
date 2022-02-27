@@ -11,6 +11,14 @@ const StudentDetailsEntry = () => {
         <input type={"text"} placeholder="Student name" className="input" />
         <h6>Date of Birth</h6>
         <input type={"date"} className="input" />
+        <h6>Address</h6>
+        <textarea
+          type={"text"}
+          className="input"
+          rows={3}
+          placeholder="Home address"
+          style={{ resize: "none" }}
+        />
         <h6>Class</h6>
         <div
           className="d-flex flex-row"
@@ -39,7 +47,15 @@ const StudentDetailsEntry = () => {
             </label>
           </div>
         </div>
-        <button type="submit" style={{ marginLeft: "auto", marginRight:'24px', marginTop:'24px', marginBottom:'24px' }}>
+        <button
+          type="submit"
+          style={{
+            marginLeft: "auto",
+            marginRight: "24px",
+            marginTop: "24px",
+            marginBottom: "24px",
+          }}
+        >
           Take Test
         </button>
       </form>
