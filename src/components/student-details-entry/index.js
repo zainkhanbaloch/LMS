@@ -3,6 +3,8 @@ import './style.css';
 
 const StudentDetailsEntry = () => {
     return <div className='col-12 d-flex flex-column align-items-center justify-content-center p-0 student-details'>
+
+        
         <div className='main'>
             <h1 className='first'>Entry Test School</h1>
             <hr></hr>
@@ -104,7 +106,12 @@ const StudentDetailsEntry = () => {
                 </select>
             </div>
 
-            <button type="button" className='btn btn-outline-primary button'>Continue</button>
+            <div className='input-group mb-3 info'>
+  <span className="input-group-text" id="inputGroup-sizing-default">Address</span>
+  <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"/>
+</div>
+
+            <button className='button'>Continue</button>
         
         </div>
         {/* Ask for student name 

@@ -1,0 +1,76 @@
+i)Coefficient of friction µs between the tyre and wet road is:
+
+0.2
+0.6
+0.8
+1
+
+
+ii)Newton first law of motion is valid only in the absence of :
+Past Paper: 
+Physics-2015-G-01
+
+Force
+Torque
+Friction
+Momentum
+
+iii)Rate of change of momentum is equal to:
+Past Paper: 
+Physics-2016-G-02
+
+Force
+Distance
+Torque
+Mass
+
+iv)Coefficent of Fruction between tyre and dry road is:
+
+0.6
+0.05
+1
+0.2
+
+v)The co-efficient of friction between iron and iron material is:
+
+1
+0.9
+0.8
+0.62
+
+vi)The unit of momentum is:
+Past Paper: 
+Physics-2015-G-02
+
+kg ms-1
+kg ms-2
+Ns-1
+Nm
+
+vii)The value of co-efficient of friction between steel and steel is:
+
+0.9
+0.8
+0.05
+0.09
+
+viii)Centripetal force always act___to the motion of body.
+
+Upward
+Perpendicular
+Opposite
+Parallel
+
+ix)The centripetal acceleration is inversely proportional to:
+
+radius
+mass
+velocity
+mass and radius
+
+x)If velocity of the body becomes double, then centripetal force will be:
+
+Half
+Four times greater
+Three times greater
+Double

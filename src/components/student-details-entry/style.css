@@ -2,7 +2,7 @@
     min-height: 100vh;
 }
 .student-details .main{
-    background-color: rgb(26, 117, 148);
+    background-color: orange;
     margin-top: -5%;
     height: 70vh;
     width: 35%;
@@ -14,10 +14,13 @@
     font-family: 'Fuzzy Bubbles', cursive;
 }
 .student-details .button{
-  color: black;
+  color: orangered;
   background-color: white;
-  margin-top: 9%;
+}
+ .button :hover{
+    background-color: orangered;
+    color: white;
 }
 .student-detail .info{
-    margin-top: -21233%;
+    background-color: orangered;
 }
