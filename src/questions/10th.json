@@ -1,15 +1,100 @@
 {
     "questions": [
       {
-        "question": "First Question",
-        "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+        "question": "The S.S of |x - 4|= -4 is",
+        "options": ["8", "{}", "-16", "-8"],
         "selected": -1
       },
       {
-        "question": "Second Question",
-        "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
+        "question": "Who introduced the symbols of inequality?",
+        "options": ["Thomas Harriot", "Henry briggs", "Jobuist Burgi", "Jhon Napier"],
+        "selected": -1
+      },
+      {
+        "question": "Which is the solution set of the inequality 9-7x >19-2x?",
+        "options": ["19", "-2", "2", "-7"],
+        "selected": -1
+      },
+      {
+        "question": "x = 0 is solution of the inequality________",
+        "options": ["x-2 < 0", "x > 0", "3x+5 < 0", "x+2 < 0"],
+        "selected": -1
+      },
+      {
+        "question": "If the capacity of an elevator is at most 1600 pounds,then:",
+        "options": ["C>1600", "C≥1600", "C<1600", "C≤1600"],
+        "selected": -1
+      },
+      {
+        "question": "Which is the solution of inequality 3 ≤ 7+2x.",
+        "options": ["10/2", "-2", "-8", "-4"],
+        "selected": -1
+      },
+      {
+        "question": "In equation x - 2 < 0 has_____its solution set",
+        "options": ["1", "3", "4", "2"],
+        "selected": -1
+      },
+      {
+        "question": "The Approximate value of 'e' is:",
+        "options": ["2.718", "10", "3.14", "0"],
+        "selected": -1
+      },
+      {
+        "question": "If Y = logz x then___:",
+        "options": ["yZ = x", "zY = x", "xY = z", "xz = y"],
+        "selected": -1
+      },
+      {
+        "question": "Scientific Notation of 0.0074 is:____",
+        "options": ["7.4 x10-4", "7.4 x10-1", "7.4 x10-2", "7.4x10-3"],
+        "selected": -1
+      },
+
+      {
+        "question": "Coefficient of friction µs between the tyre and wet road is:",
+        "options":["0.2", "0.6", "0.8", "1"],
+        "selected": -1
+      },
+      {
+        "question": "Newton first law of motion is valid only in the absence of :",
+        "options":["Force", "Momentum", "Friction", "Torque"],
+        "selected": -1
+      }, {
+        "question": "Rate of change of momentum is equal to:",
+        "options":["Mass", "Force", "Distance", "Torque"],
+        "selected": -1
+      }, {
+        "question": "Coefficent of Fruction between tyre and dry road is:",
+        "options":["0.2", "0.6", "0.05", "1"],
+        "selected": -1
+      }, {
+        "question": "The co-efficient of friction between iron and iron material is:",
+        "options":["0.62", "1", "0.9", " 0.8"],
+        "selected": -1
+      }, {
+        "question": "The unit of momentum is:",
+        "options":["0.09", "0.9", "0.8", "0.05"],
+        "selected": -1
+      }, {
+        "question": "The value of co-efficient of friction between steel and steel is:",
+        "options":["Nm", "kg ms-1", "kg ms-2", "Ns-1"],
+        "selected": -1
+      }, {
+        "question": "Centripetal force always act___to the motion of body.",
+        "options":["Upward", "Perpendicular", "Opposite", "Parallel"],
+        "selected": -1
+      }, {
+        "question": "The centripetal acceleration is inversely proportional to:",
+        "options":["radius", "mass", "velocity", "mass and radius"],
+        "selected": -1
+      }, {
+        "question": "If velocity of the body becomes double, then centripetal force will be:",
+        "options":["Half", "Four times greater", "Double", "Three times greater"],
         "selected": -1
       }
     ]
   }
+
   
+
