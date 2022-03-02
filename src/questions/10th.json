@@ -205,57 +205,57 @@
       },
 
       {
-        "question": "",
-        "options":["", "", "", ""],
+        "question": "The scientific study of living things is called:",
+        "options":["Physics", "Chemistry", "Farming", "Biology"],
         "selected":-1
       },
       {
-        "question": "",
-        "options":["", "", "", ""],
+        "question": "It deals with the study of organisms from economical point of view.",
+        "options":["Biochemistry", "Biogeography", "Biophysics", "Bioeconomics"],
         "selected":-1
       },
       {
-        "question": "",
-        "options":["", "", "", ""],
+        "question": "The study of Genes and their roles in inheritance is called:",
+        "options":["Genetics", "Histology", "Inheritance", "Anatomy"],
         "selected":-1
       },
       {
-        "question": "",
-        "options":["", "", "", ""],
+        "question": "The study of cells and cell organelles is called.",
+        "options":["Molecular biology", "Cell biology", "Micro biology", "Biotechnology"],
         "selected":-1
       },
       {
-        "question": "",
-        "options":["", "", "", ""],
+        "question": "If a scientist is studying the method of inserting human insulin gene in bacteria, which branch of biology it may be?",
+        "options":["Physiology", "Bio-technology", "Pharmacology", "Anatomy"],
         "selected":-1
       },
       {
-        "question": "",
-        "options":["", "", "", ""],
+        "question": "The branch of biology in which human insulin is entered in the bacteria is:",
+        "options":["Physiology", "Anatomy", "Pharmacology", "Bio-technology"],
         "selected":-1
       },
       {
-        "question": "",
-        "options":["", "", "", ""],
+        "question": "Abdul Malik Asmai was born in:",
+        "options":["721 AD", "780 AD", "980 AD", "740 AD"],
         "selected":-1
       },
       {
-        "question": "",
-        "options":["", "", "", ""],
+        "question": "Horticulture belongs to:",
+        "options":["Gardening", "Fisheries", "Poultry", "Plants"],
         "selected":-1
       },
       {
-        "question": "",
-        "options":["", "", "", ""],
+        "question": "It is the study of insects:",
+        "options":["Pharmacology", "Taxonomy", "Biotechnology", "Entomology"],
         "selected":-1
       },
       {
-        "question": "",
-        "options":["", "", "", ""],
+        "question": "The microscopic study of tissues is called:",
+        "options":["Morphology", "Histology", "Physiology", "Entomology"],
         "selected":-1
       }
     ]
   }
 
 
- 
+  
