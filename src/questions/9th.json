@@ -1,14 +1,39 @@
 {
   "questions": [
     {
-      "question": "First Question",
-      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
-      "selected": -1
+      "question": "The branch of biology in which human insulin is entered in the bacteria is",
+      "options": ["Physiology", "Bio-technology", "Pharmacology", "Anatomy"],
+      "selected": -1,
+      "answer": "Anatomy",
+      "type": "Bio"
     },
     {
-      "question": "Second Question",
-      "options": ["Option 1", "Option 2", "Option 3", "Option 4"],
-      "selected": -1
+      "question": "Abdul Malik Asmai was born in",
+      "options": ["721 AD", "740 AD", "980 AD", "780 AD"],
+      "selected": -1,
+      "answer": "740 AD",
+      "type": "Bio"
+    },
+    {
+      "question": "Horticulture belongs to",
+      "options": ["Gardening", "Plants", "Poultry", "Fisheries"],
+      "selected": -1,
+      "answer": "Fisheries",
+      "type": "Bio"
+    },
+    {
+      "question": "It is the study of insects",
+      "options": ["Pharmacology", "Entomology", "Biotechnology", "Taxonomy"],
+      "selected": -1,
+      "answer": "Entomology",
+      "type": "Bio"
+    },
+    {
+      "question": "The microscopic study of tissues is called",
+      "options": ["Morphology", "Entomology", "Physiology", "Histology"],
+      "selected": -1,
+      "answer": "Entomology",
+      "type": "Bio"
     }
   ]
 }
