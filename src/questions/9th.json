@@ -1,39 +1,129 @@
 {
+  "subjects": [
+    "Maths",
+    "English",
+    "Science"
+  ],
   "questions": [
     {
-      "question": "The branch of biology in which human insulin is entered in the bacteria is",
-      "options": ["Physiology", "Bio-technology", "Pharmacology", "Anatomy"],
+      "question": "The one's digit of the cube of 53 is:",
+      "options": [
+        "9",
+        "3",
+        "7",
+        "1"
+      ],
       "selected": -1,
-      "answer": "Anatomy",
-      "type": "Bio"
+      "answer": "7",
+      "type": "Maths"
     },
     {
-      "question": "Abdul Malik Asmai was born in",
-      "options": ["721 AD", "740 AD", "980 AD", "780 AD"],
+      "question": "The prime factorisation of 64 is:",
+      "options": [
+        "2 x 2 x 2",
+        "4 x 4 x 4",
+        "8 x 8 x 8",
+        "None of the above"
+      ],
       "selected": -1,
-      "answer": "740 AD",
-      "type": "Bio"
+      "answer": "None of the above",
+      "type": "Maths"
     },
     {
-      "question": "Horticulture belongs to",
-      "options": ["Gardening", "Plants", "Poultry", "Fisheries"],
+      "question": "Which of the following is not a perfect cube?",
+      "options": [
+        "216",
+        "1000",
+        "243",
+        "1331"
+      ],
       "selected": -1,
-      "answer": "Fisheries",
-      "type": "Bio"
+      "answer": "243",
+      "type": "Maths"
     },
     {
-      "question": "It is the study of insects",
-      "options": ["Pharmacology", "Entomology", "Biotechnology", "Taxonomy"],
+      "question": " By what number should 81 be divided to get a perfect cube?",
+      "options": [
+        "3",
+        "6",
+        "7",
+        "9"
+      ],
       "selected": -1,
-      "answer": "Entomology",
-      "type": "Bio"
+      "answer": "3",
+      "type": "Maths"
     },
     {
-      "question": "The microscopic study of tissues is called",
-      "options": ["Morphology", "Entomology", "Physiology", "Histology"],
+      "question": "By what number should we divide 135 to get a perfect cube?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "9"
+      ],
       "selected": -1,
-      "answer": "Entomology",
-      "type": "Bio"
+      "answer": "3",
+      "type": "Maths"
+    },
+    {
+      "question": "What should be divided by 53240 to make it a perfect cube?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "selected": -1,
+      "answer": "5",
+      "type": "Maths"
+    },
+    {
+      "question": "The value of 43√1000 is:",
+      "options": [
+        "400",
+        "40",
+        "10",
+        "4"
+      ],
+      "selected": -1,
+      "answer": "40",
+      "type": "Maths"
+    },
+    {
+      "question": "A perfect cube of a number having 0 at its unit place, ends with _____ zeros.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "selected": -1,
+      "answer": "3",
+      "type": "Maths"
+    },
+    {
+      "question": "Cube root of 15625 is:",
+      "options": [
+        "5",
+        "15",
+        "25",
+        "35"
+      ],
+      "selected": -1,
+      "answer": "25",
+      "type": "Maths"
+    },
+    {
+      "question": "Cube root of 512 is:",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "selected": -1,
+      "answer": "8",
+      "type": "Maths"
     }
   ]
 }

@@ -1,11 +1,22 @@
 {
-  "subjects": ["Maths", "English", "Chemistry", "Bio", "Physics"],
+  "subjects": [
+    "Maths",
+    "English",
+    "Chemistry",
+    "Bio",
+    "Physics"
+  ],
   "questions": [
     {
       "question": "The S.S of |x - 4|= -4 is",
-      "options": ["8", "{}", "-16", "-8"],
+      "options": [
+        "8",
+        "{}",
+        "-16",
+        "-8"
+      ],
       "selected": -1,
-      "answer": "8",
+      "answer": "{}",
       "type": "Maths"
     },
     {
@@ -22,122 +33,206 @@
     },
     {
       "question": "Which is the solution set of the inequality 9-7x >19-2x?",
-      "options": ["19", "-2", "2", "-7"],
+      "options": [
+        "19",
+        "-2",
+        "2",
+        "-7"
+      ],
       "selected": -1,
-      "answer": "2",
+      "answer": "-2",
       "type": "Maths"
     },
     {
       "question": "x = 0 is solution of the inequality________",
-      "options": ["x-2 < 0", "x > 0", "3x+5 < 0", "x+2 < 0"],
+      "options": [
+        "x-2 < 0",
+        "x > 0",
+        "3x+5 < 0",
+        "x+2 < 0"
+      ],
       "selected": -1,
-      "answer": "x > 0",
+      "answer": "x-2 < 0",
       "type": "Maths"
     },
     {
       "question": "If the capacity of an elevator is at most 1600 pounds,then:",
-      "options": ["C>1600", "C≥1600", "C<1600", "C≤1600"],
+      "options": [
+        "C>1600",
+        "C≥1600",
+        "C<1600",
+        "C≤1600"
+      ],
       "selected": -1,
-      "answer": "C>1600",
+      "answer": "C≤1600",
       "type": "Maths"
     },
     {
       "question": "Which is the solution of inequality 3 ≤ 7+2x.",
-      "options": ["10/2", "-2", "-8", "-4"],
+      "options": [
+        "10/2",
+        "-2",
+        "-8",
+        "-4"
+      ],
       "selected": -1,
-      "answer": "10/2",
+      "answer": "-2",
       "type": "Maths"
     },
     {
       "question": "In equation x - 2 < 0 has_____its solution set",
-      "options": ["1", "3", "4", "2"],
+      "options": [
+        "1",
+        "3",
+        "4",
+        "2"
+      ],
       "selected": -1,
-      "answer": "4",
+      "answer": "3",
       "type": "Maths"
     },
     {
       "question": "The Approximate value of 'e' is:",
-      "options": ["2.718", "10", "3.14", "0"],
+      "options": [
+        "2.718",
+        "10",
+        "3.14",
+        "0"
+      ],
       "selected": -1,
       "answer": "2.718",
       "type": "Maths"
     },
     {
       "question": "If Y = logz x then___:",
-      "options": ["yZ = x", "zY = x", "xY = z", "xz = y"],
+      "options": [
+        "yZ = x",
+        "zY = x",
+        "xY = z",
+        "xz = y"
+      ],
       "selected": -1,
       "answer": "zY = x",
       "type": "Maths"
     },
     {
       "question": "Scientific Notation of 0.0074 is:____",
-      "options": ["7.4 x10-4", "7.4 x10-1", "7.4 x10-2", "7.4x10-3"],
+      "options": [
+        "7.4 x10-4",
+        "7.4 x10-1",
+        "7.4 x10-2",
+        "7.4x10-3"
+      ],
       "selected": -1,
-      "answer": "7.4 x10-1",
+      "answer": "7.4 x10-3",
       "type": "Maths"
     },
-
     {
       "question": "Coefficient of friction µs between the tyre and wet road is:",
-      "options": ["0.2", "0.6", "0.8", "1"],
+      "options": [
+        "0.4",
+        "0.6",
+        "0.8",
+        "1"
+      ],
       "selected": -1,
-      "answer": "0.8",
+      "answer": "0.4",
       "type": "Physics"
     },
     {
       "question": "Newton first law of motion is valid only in the absence of :",
-      "options": ["Force", "Momentum", "Friction", "Torque"],
+      "options": [
+        "Net-Force",
+        "Momentum",
+        "Friction",
+        "Torque"
+      ],
       "selected": -1,
-      "answer": "Friction",
+      "answer": "Net-Force",
       "type": "Physics"
     },
     {
       "question": "Rate of change of momentum is equal to:",
-      "options": ["Mass", "Force", "Distance", "Torque"],
+      "options": [
+        "Mass",
+        "Force",
+        "Distance",
+        "Torque"
+      ],
       "selected": -1,
       "answer": "Force",
       "type": "Physics"
     },
     {
       "question": "Coefficent of Fruction between tyre and dry road is:",
-      "options": ["0.2", "0.6", "0.05", "1"],
+      "options": [
+        "0.2",
+        "0.6",
+        "0.04",
+        "1"
+      ],
       "selected": -1,
-      "answer": "0.05",
+      "answer": "0.04",
       "type": "Physics"
     },
     {
       "question": "The co-efficient of friction between iron and iron material is:",
-      "options": ["0.62", "1", "0.9", " 0.8"],
+      "options": [
+        "0.62",
+        "1",
+        "0.9",
+        " 0.8"
+      ],
       "selected": -1,
-      "answer": "0.9",
+      "answer": "0.62",
       "type": "Physics"
     },
     {
       "question": "The unit of momentum is:",
-      "options": ["0.09", "0.9", "0.8", "0.05"],
+      "options": [
+        "0.09",
+        "0.9",
+        "0.8",
+        "0.05"
+      ],
       "selected": -1,
       "answer": "0.8",
       "type": "Physics"
     },
     {
       "question": "The value of co-efficient of friction between steel and steel is:",
-      "options": ["Nm", "kg ms-1", "kg ms-2", "Ns-1"],
+      "options": [
+        "Nm",
+        "kg ms-1",
+        "kg ms-2",
+        "Ns-1"
+      ],
       "selected": -1,
       "answer": "kg ms-1",
       "type": "Physics"
     },
     {
       "question": "Centripetal force always act___to the motion of body.",
-      "options": ["Upward", "Perpendicular", "Opposite", "Parallel"],
+      "options": [
+        "Upward",
+        "Perpendicular",
+        "Opposite",
+        "Parallel"
+      ],
       "selected": -1,
       "answer": "Perpendicular",
       "type": "Physics"
     },
     {
       "question": "The centripetal acceleration is inversely proportional to:",
-      "options": ["radius", "mass", "velocity", "mass and radius"],
+      "options": [
+        "radius",
+        "mass",
+        "velocity",
+        "mass and radius"
+      ],
       "selected": -1,
-      "answer": "mass",
+      "answer": "radius",
       "type": "Physics"
     },
     {
@@ -152,7 +247,6 @@
       "answer": "Four times greater",
       "type": "Physics"
     },
-
     {
       "question": " He ______ in a quiz competition next week:",
       "options": [
@@ -167,14 +261,24 @@
     },
     {
       "question": "They usually ______ to Karachi in summer:",
-      "options": ["have gone", "went", "had gone", "go"],
+      "options": [
+        "have gone",
+        "went",
+        "had gone",
+        "go"
+      ],
       "selected": -1,
       "answer": "went",
       "type": "English"
     },
     {
       "question": "When he saw me I ________ to college:",
-      "options": ["would go", "was going", "had gone", "went"],
+      "options": [
+        "would go",
+        "was going",
+        "had gone",
+        "went"
+      ],
       "selected": -1,
       "answer": "was going",
       "type": "English"
@@ -193,80 +297,134 @@
     },
     {
       "question": "She ______ question by her teacher:",
-      "options": ["was asked", "had asked", "asked", "ask"],
+      "options": [
+        "was asked",
+        "had asked",
+        "asked",
+        "ask"
+      ],
       "selected": -1,
       "answer": "was asked",
       "type": "English"
     },
     {
       "question": "They ________ here a few months ago:",
-      "options": ["came", "come", "had come", "would have come"],
+      "options": [
+        "came",
+        "come",
+        "had come",
+        "would have come"
+      ],
       "selected": -1,
       "answer": "had come",
       "type": "English"
     },
     {
       "question": "The clerks ______ on strike since Monday:",
-      "options": ["will be", "are", "were", "have been"],
+      "options": [
+        "will be",
+        "are",
+        "were",
+        "have been"
+      ],
       "selected": -1,
       "answer": "have been",
       "type": "English"
     },
     {
       "question": "Unless you hard,________ you cannot pass:",
-      "options": ["have worked", "worked", "work", " will work"],
+      "options": [
+        "have worked",
+        "worked",
+        "work",
+        " will work"
+      ],
       "selected": -1,
       "answer": "worked",
       "type": "English"
     },
     {
       "question": "When you came in ,I ________ a letter:",
-      "options": ["was writing", "wrote", "have written", "write"],
+      "options": [
+        "was writing",
+        "wrote",
+        "have written",
+        "write"
+      ],
       "selected": -1,
       "answer": "was writing",
       "type": "English"
     },
     {
       "question": "They ________ here a month ago",
-      "options": ["come", "came", "comes", "coming"],
+      "options": [
+        "come",
+        "came",
+        "comes",
+        "coming"
+      ],
       "selected": -1,
       "answer": "came",
       "type": "English"
     },
-
     {
       "question": "Which third abundant gas found in the Earth's crust?",
-      "options": ["Argon", "Alluminium", "Nitrogen", "Oxygen"],
+      "options": [
+        "Argon",
+        "Alluminium",
+        "Nitrogen",
+        "Oxygen"
+      ],
       "selected": -1,
-      "answer": "Nitrogen",
+      "answer": "Argon",
       "type": "Chemistry"
     },
     {
       "question": "The number of natrualy occuring elements is:",
-      "options": ["108", "92", "114", "98"],
+      "options": [
+        "108",
+        "92",
+        "114",
+        "98"
+      ],
       "selected": -1,
-      "answer": "108",
+      "answer": "92",
       "type": "Chemistry"
     },
     {
       "question": "Percentage by weight of hydrogen in ocean is",
-      "options": ["12", "11", "14", "13"],
+      "options": [
+        "12",
+        "11",
+        "14",
+        "13"
+      ],
       "selected": -1,
-      "answer": "13",
+      "answer": "11",
       "type": "Chemistry"
     },
     {
       "question": "The most abundant element occuring in the ocean is:",
-      "options": ["Nitrogen", "Hydrogen", "Oxygen", "Silicon"],
+      "options": [
+        "Nitrogen",
+        "Hydrogen",
+        "Oxygen",
+        "Silicon"
+      ],
       "selected": -1,
-      "answer": "Nitrogen",
+      "answer": "Hydrogen",
       "type": "Chemistry"
     },
     {
       "question": "Murcury is the metal which exists:",
-      "options": ["Plasma", "Liquid", "Solid", "Gas"],
+      "options": [
+        "Plasma",
+        "Liquid",
+        "Solid",
+        "Gas"
+      ],
       "selected": -1,
-      "answer": "Plasma",
+      "answer": "Liguid",
       "type": "Chemistry"
     },
     {
@@ -284,54 +442,83 @@
     {
       "question": "Mass of Electron is:",
       "options": [
-        "9.106x10-28kg",
+        "9.106x10-31kg",
         "1.672x10-24g",
         "1.672x10-24kg",
         "9.106x10-28g"
       ],
       "selected": -1,
-      "answer": "1.672x10-24kg",
+      "answer": "9.106x10-31kg",
       "type": "Chemistry"
     },
     {
       "question": "Which element is found in most abundance in the atmosphre?",
-      "options": ["Chlorine", "Oxygen", "Organ", "Nitrogen"],
+      "options": [
+        "Chlorine",
+        "Oxygen",
+        "Organ",
+        "Nitrogen"
+      ],
       "selected": -1,
-      "answer": "Chlorine",
+      "answer": "Nitrogen",
       "type": "Chemistry"
     },
     {
       "question": "Which are of the following can be separated by physical mean?",
-      "options": ["Mixture", "Compounds", "Radicals", "Elements"],
+      "options": [
+        "Mixture",
+        "Compounds",
+        "Radicals",
+        "Elements"
+      ],
       "selected": -1,
-      "answer": "Compounds",
+      "answer": "Mixture",
       "type": "Chemistry"
     },
     {
-      "question": "The number of naturally occurring elements are:",
-      "options": ["Chlroine", "Fluorine", "Bromine", "Iodine"],
+      "question": "The number of naturally occurring elements in Modern Periodic Table is:",
+      "options": [
+        "106",
+        "110",
+        "82",
+        "92"
+      ],
       "selected": -1,
-      "answer": "Fluorine",
+      "answer": "92",
       "type": "Chemistry"
     },
-
     {
       "question": "The scientific study of living things is called:",
-      "options": ["Physics", "Chemistry", "Farming", "Biology"],
+      "options": [
+        "Physics",
+        "Chemistry",
+        "Farming",
+        "Biology"
+      ],
       "selected": -1,
       "answer": "Biology",
       "type": "Bio"
     },
     {
       "question": "It deals with the study of organisms from economical point of view.",
-      "options": ["Biochemistry", "Biogeography", "Biophysics", "Bioeconomics"],
+      "options": [
+        "Biochemistry",
+        "Biogeography",
+        "Biophysics",
+        "Bioeconomics"
+      ],
       "selected": -1,
       "answer": "Bioeconomics",
       "type": "Bio"
     },
     {
       "question": "The study of Genes and their roles in inheritance is called:",
-      "options": ["Genetics", "Histology", "Inheritance", "Anatomy"],
+      "options": [
+        "Genetics",
+        "Histology",
+        "Inheritance",
+        "Anatomy"
+      ],
       "selected": -1,
       "answer": "Genetics",
       "type": "Bio"
@@ -345,49 +532,79 @@
         "Biotechnology"
       ],
       "selected": -1,
-      "answer": "Micro biology",
+      "answer": "Cell biology",
       "type": "Bio"
     },
     {
       "question": "If a scientist is studying the method of inserting human insulin gene in bacteria, which branch of biology it may be?",
-      "options": ["Physiology", "Bio-technology", "Pharmacology", "Anatomy"],
+      "options": [
+        "Physiology",
+        "Bio-technology",
+        "Pharmacology",
+        "Anatomy"
+      ],
       "selected": -1,
-      "answer": "Pharmacology",
+      "answer": "Bio-technology",
       "type": "Bio"
     },
     {
       "question": "The branch of biology in which human insulin is entered in the bacteria is:",
-      "options": ["Physiology", "Anatomy", "Pharmacology", "Bio-technology"],
+      "options": [
+        "Physiology",
+        "Anatomy",
+        "Pharmacology",
+        "Bio-technology"
+      ],
       "selected": -1,
-      "answer": "Anatomy",
+      "answer": "Bio-technology",
       "type": "Bio"
     },
     {
       "question": "Abdul Malik Asmai was born in:",
-      "options": ["721 AD", "780 AD", "980 AD", "740 AD"],
+      "options": [
+        "721 AD",
+        "780 AD",
+        "980 AD",
+        "740 AD"
+      ],
       "selected": -1,
-      "answer": "780 AD",
+      "answer": "740 AD",
       "type": "Bio"
     },
     {
       "question": "Horticulture belongs to:",
-      "options": ["Gardening", "Fisheries", "Poultry", "Plants"],
+      "options": [
+        "Gardening",
+        "Fisheries",
+        "Poultry",
+        "Plants"
+      ],
       "selected": -1,
-      "answer": "Fisheries",
+      "answer": "Plants",
       "type": "Bio"
     },
     {
       "question": "It is the study of insects:",
-      "options": ["Pharmacology", "Taxonomy", "Biotechnology", "Entomology"],
+      "options": [
+        "Pharmacology",
+        "Taxonomy",
+        "Biotechnology",
+        "Entomology"
+      ],
       "selected": -1,
       "answer": "Taxonomy",
       "type": "Bio"
     },
     {
       "question": "The microscopic study of tissues is called:",
-      "options": ["Morphology", "Histology", "Physiology", "Entomology"],
+      "options": [
+        "Morphology",
+        "Histology",
+        "Physiology",
+        "Entomology"
+      ],
       "selected": -1,
-      "answer": "Entomology",
+      "answer": "Histology",
       "type": "Bio"
     }
   ]

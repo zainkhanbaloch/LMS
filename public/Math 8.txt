@@ -1,0 +1,167 @@
+1. The one’s digit of the cube of 53 is:
+
+A. 9
+
+B. 3
+
+C. 7
+
+D. 1
+
+Answer: C
+
+Explanation: 533 = 53 x 53 x 53
+
+33 = 3x3x3 = 27
+
+Hence, at the unit place, we will get 7.
+
+Recheck: 533 = 53 x 53 x 53 = 148877
+
+2. The prime factorisation of 64 is:
+
+A. 2 x 2 x 2
+
+B. 4 x 4 x 4
+
+C. 8 x 8 x 8
+
+D. None of the above
+
+Answer: D
+
+Explanation: 64 = 2 x 2 × 2 x 2 x 2 x 2 = 26
+
+3. Which of the following is not a perfect cube?
+
+A. 216
+
+B. 1000
+
+C. 243
+
+D. 1331
+
+Answer: C
+
+Explanation: 243 = 3 × 3 × 3 × 3 × 3 = 33 × 32
+
+4. By what number should 81 be divided to get a perfect cube?
+
+A. 3
+
+B. 6
+
+C. 7
+
+D. 9
+
+Answer: A
+
+Explanation: The prime factorisation of 81 will be:
+
+81 = 3 × 3 × 3 × 3
+
+81 = 33 × 3
+
+Hence, we need to divide 81 by 3 to get:
+
+81/3 = 27 = 33
+
+5. By what number should we divide 135 to get a perfect cube?
+
+A. 3
+
+B. 5
+
+C. 7
+
+D. 9
+
+Answer: B
+
+Explanation: 135 = 3 x 3 x 3 x 5
+
+We can see, 5 is the extra number which cannot be paired in a group of 3.
+
+Hence, 135/5 = 27
+
+6. Cube root of 512 is:
+
+A. 4
+
+B. 6
+
+C. 8
+
+D. 12
+
+Answer: C
+
+Explanation: By prime factorisation, we get:
+
+512 = 2 × 2 × 2 × 2 × 2 × 2 × 2 × 2 × 2
+
+3√512 = 2 × 2 × 2 = 8
+
+7. What should be divided by 53240 to make it a perfect cube?
+
+A. 5
+
+B. 10
+
+C. 15
+
+D. 20
+
+Answer: A
+
+Explanation: The prime factorisation of 53240
+
+53240 = 2 × 2 × 2 × 11 × 11 × 11 × 5 = 23 × 113 × 5
+
+Hence, we need to divide 53240 by 5
+
+53240/5 = 10648 is a perfect cube.
+
+8. The value of 43√1000 is:
+
+A. 400
+
+B. 40
+
+C. 10
+
+D. 4
+
+Answer: B
+
+Explanation: 43√1000 = 43√(10×10×10) = 4 × 10 = 40
+
+9. A perfect cube of a number having 0 at its unit place, ends with _____ zeros.
+
+A. 1
+
+B. 2
+
+C. 3
+
+D. 4
+
+Answer: C
+
+Examples: 103 = 1000
+
+203 = 8000
+
+303 = 27000
+
+10. Cube root of 15625 is:
+
+A. 5
+
+B. 15
+
+C. 25
+
+D. 35
