@@ -150,7 +150,7 @@ const StudentDetailsEntry = (props) => {
 
   return (
     <div className="col-12 d-flex flex-column align-items-center justify-content-center mcqs-wrapper">
-      <form className="mcqs-form col-lg-4 col-md-8 col-11 d-flex flex-column">
+      <form className="mcqs-form col-lg-6 col-md-9 col-12 d-flex flex-column">
         {student && student.name && (
           <>
             <div
