@@ -3,7 +3,7 @@
     "Maths",
     "English",
     "Chemistry",
-    "Bio",
+    "Biology",
     "Physics"
   ],
   "questions": [
@@ -497,7 +497,7 @@
       ],
       "selected": -1,
       "answer": "Biology",
-      "type": "Bio"
+      "type": "Biology"
     },
     {
       "question": "It deals with the study of organisms from economical point of view.",
@@ -509,7 +509,7 @@
       ],
       "selected": -1,
       "answer": "Bioeconomics",
-      "type": "Bio"
+      "type": "Biologylogy"
     },
     {
       "question": "The study of Genes and their roles in inheritance is called:",
@@ -521,7 +521,7 @@
       ],
       "selected": -1,
       "answer": "Genetics",
-      "type": "Bio"
+      "type": "Biology"
     },
     {
       "question": "The study of cells and cell organelles is called.",
@@ -533,7 +533,7 @@
       ],
       "selected": -1,
       "answer": "Cell biology",
-      "type": "Bio"
+      "type": "Biology"
     },
     {
       "question": "If a scientist is studying the method of inserting human insulin gene in bacteria, which branch of biology it may be?",
@@ -545,7 +545,7 @@
       ],
       "selected": -1,
       "answer": "Bio-technology",
-      "type": "Bio"
+      "type": "Biology"
     },
     {
       "question": "The branch of biology in which human insulin is entered in the bacteria is:",
@@ -557,7 +557,7 @@
       ],
       "selected": -1,
       "answer": "Bio-technology",
-      "type": "Bio"
+      "type": "Biology"
     },
     {
       "question": "Abdul Malik Asmai was born in:",
@@ -569,7 +569,7 @@
       ],
       "selected": -1,
       "answer": "740 AD",
-      "type": "Bio"
+      "type": "Biology"
     },
     {
       "question": "Horticulture belongs to:",
@@ -581,7 +581,7 @@
       ],
       "selected": -1,
       "answer": "Plants",
-      "type": "Bio"
+      "type": "Biology"
     },
     {
       "question": "It is the study of insects:",
@@ -593,7 +593,7 @@
       ],
       "selected": -1,
       "answer": "Taxonomy",
-      "type": "Bio"
+      "type": "Biology"
     },
     {
       "question": "The microscopic study of tissues is called:",
@@ -605,7 +605,7 @@
       ],
       "selected": -1,
       "answer": "Histology",
-      "type": "Bio"
+      "type": "Biology"
     }
   ]
 }
