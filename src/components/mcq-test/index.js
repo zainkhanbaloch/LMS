@@ -5,16 +5,28 @@ import Sallybus10 from "../../questions/10th.json";
 import Sallybus9 from "../../questions/9th.json";
 import { useNavigate } from "react-router-dom";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import {
+  getQuestions,
+  setResult,
+  setQuestions as setQ,
+  getStudent,
+} from "../../redux/actions/entryTestActions";
 import "react-circular-progressbar/dist/styles.css";
+import TimeOver from "../../assets/timeover.gif";
+import NotFound from "../../assets/notfound.gif";
 import "./style.css";
 
-const StudentDetailsEntry = (props) => {
-  const { student } = props;
+const Mcqs = (props) => {
+  const { student, setResult, getStudent } = props;
   const [mins, setMins] = useState(0),
-    [questions, setQuestions] = useState([]),
-    [currentIndex, setCurrentIndex] = useState(0),
-    [currentQIndex, setCurrentQIndex] = useState(0),
+    [questions, setQuestions] = useState(getQuestions().questions),
+    [currentIndex, setCurrentIndex] = useState(getQuestions().currentIndex),
+    [currentQIndex, setCurrentQIndex] = useState(getQuestions().currentQIndex),
     [selectedAnswer, setSelectedAnswer] = useState("");
+
+  useEffect(() => {
+    getStudent();
+  }, [getStudent]);
 
   function shuffle(array) {
     let currentIndex = array.length,
@@ -34,8 +46,8 @@ const StudentDetailsEntry = (props) => {
   }
 
   useEffect(() => {
-    let arr = [];
-    if (student && student.name) {
+    let arr = getQuestions().questions;
+    if (student && student.name && !getQuestions().questions.length > 0) {
       let tempSubjects;
       if (student.class === "10th") {
         tempSubjects = Sallybus10.subjects;
@@ -123,6 +135,16 @@ const StudentDetailsEntry = (props) => {
   let navigate = useNavigate();
 
   const saveAnswer = (i) => {
+    if (i === -1) {
+      setResult(questions);
+      setQ({
+        questions: [],
+        currentIndex: 0,
+        currentQIndex: 0,
+      });
+      return navigate("/student/result");
+    }
+
     if (!selectedAnswer) return null;
 
     let arr = questions;
@@ -131,26 +153,43 @@ const StudentDetailsEntry = (props) => {
 
     let tempQuestions = arr[currentIndex].questions;
 
-    tempQuestions[currentQIndex].answer = selectedAnswer;
+    tempQuestions[currentQIndex].student_answer = selectedAnswer;
     setQuestions(arr);
     setSelectedAnswer("");
 
-
-
-
-    if(i === 0) {
-      alert('Test Finished')
+    if (i === 0) {
+      setResult(arr);
+      setQ({
+        questions: [],
+        currentIndex: 0,
+        currentQIndex: 0,
+      });
+      navigate("/student/result");
     } else {
+      let cIndex = 0;
+      let cQIndex = 0;
+
       if (currentQIndex === tempQuestions.length - 1) {
+        cIndex = currentIndex + 1;
+        cQIndex = 0;
         setCurrentQIndex(0);
-        setCurrentIndex(currentIndex + 1);
-      } else setCurrentQIndex(currentQIndex + 1);
+        setCurrentIndex(cIndex);
+      } else {
+        cQIndex = currentQIndex + 1;
+        setCurrentQIndex(cQIndex);
+      }
+
+      setQ({
+        questions: arr,
+        currentIndex: cIndex,
+        currentQIndex: cQIndex,
+      });
     }
   };
 
   return (
     <div className="col-12 d-flex flex-column align-items-center justify-content-center mcqs-wrapper">
-      <form className="mcqs-form col-lg-6 col-md-9 col-12 d-flex flex-column">
+      <div className="mcqs-form col-lg-6 col-md-9 col-12 d-flex flex-column">
         {student && student.name && (
           <>
             <div
@@ -182,120 +221,155 @@ const StudentDetailsEntry = (props) => {
               </div>
             </div>
             <div className="line"></div>
-            <div
-              style={{ width: "100%" }}
-              className="d-flex flex-row justify-content-end"
-            >
-              <h6
-                style={{
-                  marginRight: "28px",
-                }}
-              >
-                {questions && questions[currentIndex]
-                  ? questions[currentIndex].type
-                  : ""}
-              </h6>
-            </div>
-            <div
-              className="d-flex flex-column"
-              style={{
-                width: "90%",
-                marginLeft: "24px",
-                marginRight: "24px",
-                marginTop: "12px",
-                marginBottom: "0px",
-              }}
-            >
-              <p
-                style={{
-                  fontSize: "16px",
-                  fontWeight: "600",
-                  wordBreak: "break-all",
-                }}
-              >
-                {questions &&
-                  questions[currentIndex] &&
-                  questions[currentIndex].questions &&
-                  questions[currentIndex].questions[currentQIndex] &&
-                  questions[currentIndex].questions[currentQIndex].question}
-              </p>
-              {questions &&
-                questions[currentIndex] &&
-                questions[currentIndex].questions &&
-                questions[currentIndex].questions[currentQIndex] &&
-                questions[currentIndex].questions[currentQIndex].options.map(
-                  (i, k) => {
-                    return (
-                      <div
-                        onClick={(e) => {
-                          setSelectedAnswer(i);
-                        }}
-                        key={k}
-                        className="option d-flex flex-row align-items-center"
-                        style={{
-                          width: "90%",
-                          border:
-                            selectedAnswer === i
-                              ? "1px solid #2bb8c2"
-                              : "1px solid white",
-                          padding: "2px 12px",
-                          marginBottom: "18px",
-                          borderRadius: "4px",
-                          cursor: "pointer",
-                          color: selectedAnswer === i ? "#2bb8c2" : "white",
-                        }}
-                      >
+            {mins > 0 ? (
+              <>
+                <div
+                  style={{ width: "100%" }}
+                  className="d-flex flex-row justify-content-end"
+                >
+                  <h6
+                    style={{
+                      marginRight: "28px",
+                    }}
+                  >
+                    {questions && questions[currentIndex]
+                      ? questions[currentIndex].type
+                      : ""}
+                  </h6>
+                </div>
+                <div
+                  className="d-flex flex-column"
+                  style={{
+                    width: "90%",
+                    marginLeft: "24px",
+                    marginRight: "24px",
+                    marginTop: "12px",
+                    marginBottom: "0px",
+                  }}
+                >
+                  <p
+                    style={{
+                      fontSize: "16px",
+                      fontWeight: "600",
+                      wordBreak: "break-all",
+                    }}
+                  >
+                    {questions &&
+                      questions[currentIndex] &&
+                      questions[currentIndex].questions &&
+                      questions[currentIndex].questions[currentQIndex] &&
+                      questions[currentIndex].questions[currentQIndex].question}
+                  </p>
+                  {questions &&
+                    questions[currentIndex] &&
+                    questions[currentIndex].questions &&
+                    questions[currentIndex].questions[currentQIndex] &&
+                    questions[currentIndex].questions[
+                      currentQIndex
+                    ].options.map((i, k) => {
+                      return (
                         <div
-                          className="span"
+                          onClick={(e) => {
+                            setSelectedAnswer(i);
+                          }}
+                          key={k}
+                          className="option d-flex flex-row align-items-center"
                           style={{
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                            width: "20px",
-                            height: "20px",
-                            borderRadius: "1000px",
+                            width: "90%",
                             border:
                               selectedAnswer === i
                                 ? "1px solid #2bb8c2"
                                 : "1px solid white",
-                            background:
-                              selectedAnswer === i ? "#2bb8c2" : "transparent",
-                            color: "white",
+                            padding: "2px 12px",
+                            marginBottom: "18px",
+                            borderRadius: "4px",
+                            cursor: "pointer",
+                            color: selectedAnswer === i ? "#2bb8c2" : "white",
                           }}
                         >
-                          <span
-                            className="span fa fa-check"
+                          <div
+                            className="span"
                             style={{
-                              fontSize: "12px",
-                              opacity: selectedAnswer === i ? "1" : "0",
+                              display: "flex",
+                              alignItems: "center",
+                              justifyContent: "center",
+                              width: "20px",
+                              height: "20px",
+                              borderRadius: "1000px",
+                              border:
+                                selectedAnswer === i
+                                  ? "1px solid #2bb8c2"
+                                  : "1px solid white",
+                              background:
+                                selectedAnswer === i
+                                  ? "#2bb8c2"
+                                  : "transparent",
+                              color: "white",
                             }}
-                          ></span>
+                          >
+                            <span
+                              className="span fa fa-check"
+                              style={{
+                                fontSize: "12px",
+                                opacity: selectedAnswer === i ? "1" : "0",
+                              }}
+                            ></span>
+                          </div>
+                          <p
+                            style={{
+                              marginLeft: "12px",
+                              fontSize: "14px",
+                              wordBreak: "break-all",
+                              marginTop: "14px",
+                            }}
+                          >
+                            {i}
+                          </p>
                         </div>
-                        <p
-                          style={{
-                            marginLeft: "12px",
-                            fontSize: "14px",
-                            wordBreak: "break-all",
-                            marginTop: "14px",
-                          }}
-                        >
-                          {i}
-                        </p>
-                      </div>
-                    );
-                  }
-                )}
-            </div>
-            {questions &&
+                      );
+                    })}
+                </div>
+              </>
+            ) : (
+              <>
+                <div
+                  style={{
+                    margin: "36px auto",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                  }}
+                >
+                  <img
+                    src={TimeOver}
+                    alt="Time Over"
+                    style={{ width: "250px", height: "250px" }}
+                  />
+                  <h1
+                    style={{
+                      margin: "0px",
+                      fontSize: "14px",
+                      fontWeight: "500",
+                      opacity: "0.7",
+                    }}
+                  >
+                    Time for test is over, please press finish to view results
+                  </h1>
+                </div>
+              </>
+            )}
+
+            {mins > 0 &&
+            questions &&
             questions[currentIndex] &&
             currentIndex === questions.length - 1 &&
             questions[currentIndex].questions &&
             questions[currentIndex].questions[currentQIndex] &&
             currentQIndex === questions[currentIndex].questions.length - 1 ? (
               <button
-              onClick={(e) => {
-                saveAnswer(0);
-              }}
+                onClick={(e) => {
+                  saveAnswer(0);
+                }}
                 type="button"
                 style={{
                   marginLeft: "auto",
@@ -307,7 +381,7 @@ const StudentDetailsEntry = (props) => {
               >
                 Finish
               </button>
-            ) : (
+            ) : mins > 0 ? (
               <button
                 onClick={(e) => {
                   saveAnswer(1);
@@ -324,43 +398,79 @@ const StudentDetailsEntry = (props) => {
               >
                 Next
               </button>
+            ) : (
+              <button
+                onClick={(e) => {
+                  saveAnswer(-1);
+                }}
+                type="button"
+                style={{
+                  marginLeft: "auto",
+                  marginRight: "24px",
+                  marginTop: "24px",
+                  marginBottom: "24px",
+                }}
+              >
+                Finish
+              </button>
             )}
           </>
         )}
 
         {!student && (
-          <div
-            style={{
-              margin: "36px auto",
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-            }}
-          >
-            <h1 style={{ margin: "0px" }}>Please register yourself</h1>
+          <>
+            <div
+              style={{
+                margin: "36px auto",
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+              }}
+            >
+              <img
+                src={NotFound}
+                alt="Not Found"
+                style={{ width: "250px", height: "250px" }}
+              />
+              <h1
+                style={{
+                  margin: "0px",
+                  fontSize: "14px",
+                  fontWeight: "500",
+                  opacity: "0.7",
+                }}
+              >
+                Please register yourself to start the test
+              </h1>
+            </div>
             <button
               type="button"
               onClick={(e) => {
                 navigate("/student/details");
               }}
               style={{
+                marginLeft: "auto",
                 marginTop: "24px",
                 marginBottom: "24px",
+                marginRight: "24px",
               }}
             >
               Register here
             </button>
-          </div>
+          </>
         )}
-      </form>
+      </div>
     </div>
   );
 };
 
 const mapStateToProps = (state) => {
   return {
-    student: state.Student.student,
+    student: state.Student.data,
   };
 };
 
-export default connect(mapStateToProps, {})(StudentDetailsEntry);
+export default connect(mapStateToProps, {
+  setResult,
+  getStudent,
+})(Mcqs);
