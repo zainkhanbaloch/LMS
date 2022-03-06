@@ -125,10 +125,9 @@
       "answer": "8",
       "type": "Maths"
     },
-
     {
       "question": "Rocks are made up of",
-      "options":[
+      "options": [
         "Soil",
         "Core",
         "Mantle",
@@ -140,7 +139,7 @@
     },
     {
       "question": "Water in freezing form may break the rocks in to pieces by force of",
-      "options":[
+      "options": [
         "Reduction",
         "Evaporation",
         "Expansion",
@@ -152,7 +151,7 @@
     },
     {
       "question": "With the passage of time the transported sediments become",
-      "options":[
+      "options": [
         "Smoother",
         "Smaller",
         "Rounder",
@@ -164,7 +163,7 @@
     },
     {
       "question": "The dead remains of animals and plants also accumulate to form",
-      "options":[
+      "options": [
         "Coal",
         "Natural oil",
         "Diamond",
@@ -176,7 +175,7 @@
     },
     {
       "question": "Weathering of rocks is affected by",
-      "options":[
+      "options": [
         "Rain",
         "Temperature",
         "Both a and b",
@@ -188,7 +187,7 @@
     },
     {
       "question": "Sedimentary layers over a period of time are compacted and cemented to form",
-      "options":[
+      "options": [
         "Sedimentary Rocks",
         "Mountains",
         "Deserts",
@@ -200,7 +199,7 @@
     },
     {
       "question": "While transportation sediments are sorted according to their",
-      "options":[
+      "options": [
         "Size",
         "Volume",
         "Color",
@@ -212,7 +211,7 @@
     },
     {
       "question": "Repetition in expansion and contractions in rocks give rise to",
-      "options":[
+      "options": [
         "Stress",
         "Heat",
         "Volume",
@@ -224,7 +223,7 @@
     },
     {
       "question": "Granite chip on exposure to extreme temperature will be",
-      "options":[
+      "options": [
         "Broken",
         "Stronger",
         "Weaker",
@@ -236,7 +235,7 @@
     },
     {
       "question": "Colorado river moving through layers of sandstone, shale and limestone after million years have formed",
-      "options":[
+      "options": [
         "Statues",
         "Canyon",
         "Pyramid",
@@ -245,11 +244,126 @@
       "selected": -1,
       "answer": "Canyon",
       "type": "Science"
+    },
+    {
+      "question": "I have cleaned my room __________ :",
+      "options": [
+        "himself",
+        "herself",
+        "myself",
+        "ourselves"
+      ],
+      "selected": -1,
+      "answer": "myself",
+      "type": "English"
+    },
+    {
+      "question": "The word 'popular' means:",
+      "options": [
+        "well known",
+        "Welcome",
+        "well read",
+        "Well write"
+      ],
+      "selected": -1,
+      "answer": "well known",
+      "type": "English"
+    },
+    {
+      "question": "A_________ of pigeons flew over the lake:",
+      "options": [
+        "Team",
+        "Herd",
+        "Bunch",
+        "Flock"
+      ],
+      "selected": -1,
+      "answer": "Flock",
+      "type": "English"
+    },
+    {
+      "question": "God Helps those who help--------------------.The correct word which can be used in the blank of the above sentence is",
+      "options": [
+        "herself",
+        "yourself",
+        "themselves",
+        "himself uhy"
+      ],
+      "selected": -1,
+      "answer": "themselves",
+      "type": "English"
+    },
+    {
+      "question": "The word 'exhibition' means:",
+      "options": [
+        "Know",
+        "Display",
+        "Hobby",
+        "Painting"
+      ],
+      "selected": -1,
+      "answer": "Display",
+      "type": "English"
+    },
+    {
+      "question": "Correct set of rhyming words is:",
+      "options": [
+        "Shrink, Drink",
+        "Water, Board",
+        "Ship, Sun",
+        "Idle, Bath"
+      ],
+      "selected": -1,
+      "answer": "Shrink, Drink",
+      "type": "English"
+    },
+    {
+      "question": "Tick the correct preposition to complete sentence given below.He jumped----------- river.",
+      "options": [
+        "in",
+        "into",
+        "on",
+        "at"
+      ],
+      "selected": -1,
+      "answer": "into",
+      "type": "English"
+    },
+    {
+      "question": "The sentence with correct use of infinitive is:",
+      "options": [
+        "He is working hard to got good marks.",
+        "He is working hard to getting good marks.",
+        "He is working hard to gets good marks.",
+        "He is working hard to get good marks"
+      ],
+      "selected": -1,
+      "answer": "He is working hard to get good marks",
+      "type": "English"
+    },
+    {
+      "question": "The correct sentence is:",
+      "options": [
+        "She is here yesterday.",
+        "She will be here yesterday.",
+        "She were here yesterday.",
+        "She was here yesterday."
+      ],
+      "selected": -1,
+      "answer": "She was here yesterday.",
+      "type": "English"
+    },
+    {
+      "question": "The rhyming word of 'pitch' is:",
+      "options": [
+        "Twin",
+        "Which",
+        "Kin",
+        "Him"
+      ],
+      "selected": -1,
+      "answer": "Which",
+      "type": "English"
     }
   ]
 }
-
-
-
-
-
