@@ -1,20 +1,21 @@
-import { Student } from "../constants";
 
-const { StudentDetail, ClearStudent } = Student;
+import { Result } from "../constants";
+
+const { StudentResult, ClearResult } = Result;
 
 const initial_state = {
   data: null,
 };
 
-export const studentReducer = (state = initial_state, action) => {
+export const resultReducer = (state = initial_state, action) => {
   switch (action.type) {
-    case StudentDetail:
+    case StudentResult:
       return {
         ...state,
         data: action.payload,
       };
 
-    case ClearStudent:
+    case ClearResult:
       return {
         ...state,
         data: null,

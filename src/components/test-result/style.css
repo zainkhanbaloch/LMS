@@ -1,0 +1,76 @@
+.result-wrapper {
+  min-height: 100vh;
+  background-color: #191b34;
+  color: white;
+}
+.result-wrapper .result-form {
+    background-color: #282d4a;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 4px;
+}
+
+.result-wrapper .result-form h1 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 24px 24px 12px 24px;
+}
+
+.result-wrapper .result-form .cricle-h5 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.result-wrapper .result-form .line {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.result-wrapper .result-form h6 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 24px 24px 0px 24px;
+}
+
+.result-wrapper .result-form label {
+    font-size: 14px;
+}
+
+.result-wrapper .result-form input[type="radio"] {
+    margin-top: 5px;
+}
+
+.result-wrapper .result-form .input {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 12px 24px 0px 24px;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    background-color: transparent;
+    color: white;
+    border-radius: 2px;
+}
+
+.result-wrapper .result-form .input:focus {
+    border: 2px solid #2bb8c2;
+}
+
+.result-wrapper .result-form button {
+    background-color: #4b1ff8;
+    color: white;
+    font-size: 14px;
+    padding: 8px 48px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 6px;
+}
+
+.result-wrapper .result-form .option, .result-wrapper .result-form .span {
+    transition: all ease-in-out 0.3s;
+}
