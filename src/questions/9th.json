@@ -124,6 +124,132 @@
       "selected": -1,
       "answer": "8",
       "type": "Maths"
+    },
+
+    {
+      "question": "Rocks are made up of",
+      "options":[
+        "Soil",
+        "Core",
+        "Mantle",
+        "Crust"
+      ],
+      "selected": -1,
+      "answer": "Crust",
+      "type": "Science"
+    },
+    {
+      "question": "Water in freezing form may break the rocks in to pieces by force of",
+      "options":[
+        "Reduction",
+        "Evaporation",
+        "Expansion",
+        "Condensation"
+      ],
+      "selected": -1,
+      "answer": "Expansion",
+      "type": "Science"
+    },
+    {
+      "question": "With the passage of time the transported sediments become",
+      "options":[
+        "Smoother",
+        "Smaller",
+        "Rounder",
+        "All of them"
+      ],
+      "selected": -1,
+      "answer": "All of them",
+      "type": "Science"
+    },
+    {
+      "question": "The dead remains of animals and plants also accumulate to form",
+      "options":[
+        "Coal",
+        "Natural oil",
+        "Diamond",
+        "Sedimentary layer"
+      ],
+      "selected": -1,
+      "answer": "Sedimentary layer",
+      "type": "Science"
+    },
+    {
+      "question": "Weathering of rocks is affected by",
+      "options":[
+        "Rain",
+        "Temperature",
+        "Both a and b",
+        "Erosion"
+      ],
+      "selected": -1,
+      "answer": "Both a and b",
+      "type": "Science"
+    },
+    {
+      "question": "Sedimentary layers over a period of time are compacted and cemented to form",
+      "options":[
+        "Sedimentary Rocks",
+        "Mountains",
+        "Deserts",
+        "Hills"
+      ],
+      "selected": -1,
+      "answer": "Sedimentary Rocks",
+      "type": "Science"
+    },
+    {
+      "question": "While transportation sediments are sorted according to their",
+      "options":[
+        "Size",
+        "Volume",
+        "Color",
+        "Chemical Properties"
+      ],
+      "selected": -1,
+      "answer": "Size",
+      "type": "Science"
+    },
+    {
+      "question": "Repetition in expansion and contractions in rocks give rise to",
+      "options":[
+        "Stress",
+        "Heat",
+        "Volume",
+        "Force"
+      ],
+      "selected": -1,
+      "answer": "Stress",
+      "type": "Science"
+    },
+    {
+      "question": "Granite chip on exposure to extreme temperature will be",
+      "options":[
+        "Broken",
+        "Stronger",
+        "Weaker",
+        "Stable"
+      ],
+      "selected": -1,
+      "answer": "Broken",
+      "type": "Science"
+    },
+    {
+      "question": "Colorado river moving through layers of sandstone, shale and limestone after million years have formed",
+      "options":[
+        "Statues",
+        "Canyon",
+        "Pyramid",
+        "Wall of China"
+      ],
+      "selected": -1,
+      "answer": "Canyon",
+      "type": "Science"
     }
   ]
 }
+
+
+
+
+
