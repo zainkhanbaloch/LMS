@@ -20,7 +20,8 @@ const StudentDetailsEntry = (props) => {
     e.preventDefault();
     if (student.class) {
       let datetime = new Date(Date.now());
-      datetime.setHours(datetime.getHours() + 1);
+      if(student.class === '10th') datetime.setMinutes(datetime.getMinutes() + 50)
+      else datetime.setMinutes(datetime.getMinutes() + 30)
       let data = student;
       data.datetime = datetime;
       setStudent(data);

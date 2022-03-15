@@ -15,6 +15,7 @@ import "react-circular-progressbar/dist/styles.css";
 import TimeOver from "../../assets/timeover.gif";
 import NotFound from "../../assets/notfound.gif";
 import "./style.css";
+import { useMousePosition } from "./useMousePosition";
 
 const Mcqs = (props) => {
   const { student, setResult, getStudent } = props;
@@ -22,7 +23,32 @@ const Mcqs = (props) => {
     [questions, setQuestions] = useState(getQuestions().questions),
     [currentIndex, setCurrentIndex] = useState(getQuestions().currentIndex),
     [currentQIndex, setCurrentQIndex] = useState(getQuestions().currentQIndex),
-    [selectedAnswer, setSelectedAnswer] = useState("");
+    [selectedAnswer, setSelectedAnswer] = useState(""),
+    [timeout, setTimeout] = useState(30);
+
+  const position = useMousePosition();
+
+  useEffect(() => {
+    if (timeout === 0) {
+      saveAnswer(3);
+      setTimeout(30);
+    }
+  }, [timeout]);
+
+  useEffect(() => {
+    setTimeout(30);
+  }, [position]);
+
+  useEffect(() => {
+    let intervalId;
+    intervalId = setInterval(() => {
+      setTimeout((time) => (time - 1 > 0 ? time - 1 : 0));
+    }, 1000);
+
+    return () => {
+      intervalId && clearInterval(intervalId);
+    };
+  }, []);
 
   useEffect(() => {
     getStudent();
@@ -110,7 +136,7 @@ const Mcqs = (props) => {
 
     setMins(min);
 
-    setInterval(() => {
+    intervalId = setInterval(() => {
       min = 0;
 
       if (student && student.datetime) {
@@ -145,7 +171,7 @@ const Mcqs = (props) => {
       return navigate("/student/result");
     }
 
-    if (!selectedAnswer) return null;
+    if (!selectedAnswer && i !== 3) return null;
 
     let arr = questions;
 
@@ -205,7 +231,9 @@ const Mcqs = (props) => {
                 }}
               >
                 <CircularProgressbar
-                  value={Math.round((mins * 100) / 60)}
+                  value={Math.round(
+                    (mins * 100) / (student.class === "10th" ? 50 : 30)
+                  )}
                   text={`${mins} mins`}
                   counterClockwise={true}
                   styles={buildStyles({
